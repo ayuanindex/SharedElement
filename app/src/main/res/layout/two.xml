@@ -3,15 +3,23 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@android:color/transparent"
+    android:background="#70FFFFFF"
+    android:gravity="center"
     android:orientation="vertical"
     tools:context=".HomeActivity">
 
-    <ImageView
-        android:id="@+id/item_image"
-        android:layout_width="100dp"
-        android:layout_height="140dp"
-        android:layout_margin="10dp"
-        android:src="@mipmap/ic_launcher_round"
-        android:transitionName="transitionImg" />
+    <LinearLayout
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:background="#FFFFFF"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/item_image"
+            android:layout_width="100dp"
+            android:layout_height="140dp"
+            android:layout_margin="10dp"
+            android:src="@mipmap/ic_launcher_round"
+            android:transitionName="transitionImg" />
+    </LinearLayout>
 </LinearLayout>
